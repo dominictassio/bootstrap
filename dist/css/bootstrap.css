@@ -7045,7 +7045,7 @@ input[type="checkbox"] {
 .btn-outline-inverse {
   color: #fff;
   background-color: transparent;
-  border-color: #008cba;
+  border-color: #fff;
 }
 .btn-outline-inverse:hover,
 .btn-outline-inverse:focus,
