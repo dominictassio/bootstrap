@@ -1,0 +1,28 @@
+.btn-outline {
+    color: @brand-primary;
+    background-color: transparent;
+    border-color: @brand-primary;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: #fff;
+        background-color: @brand-primary;
+        border-color: @brand-primary
+    }
+
+    &-inverse {
+        color: #fff;
+        background-color: transparent;
+        border-color: @brand-primary;
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: @brand-primary;
+            text-shadow: none;
+            background-color: #fff;
+            border-color: #fff;
+        }
+    }
+}

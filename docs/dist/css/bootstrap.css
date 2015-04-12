@@ -7030,4 +7030,29 @@ input[type="checkbox"] {
 .modal .close {
   color: #222;
 }
+.btn-outline {
+  color: #008cba;
+  background-color: transparent;
+  border-color: #008cba;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active {
+  color: #fff;
+  background-color: #008cba;
+  border-color: #008cba;
+}
+.btn-outline-inverse {
+  color: #fff;
+  background-color: transparent;
+  border-color: #008cba;
+}
+.btn-outline-inverse:hover,
+.btn-outline-inverse:focus,
+.btn-outline-inverse:active {
+  color: #008cba;
+  text-shadow: none;
+  background-color: #fff;
+  border-color: #fff;
+}
 /*# sourceMappingURL=bootstrap.css.map */
